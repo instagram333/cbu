@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ipotekabank SMS Code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-screen="flow" data-step="age">
+    <div class="page-shell"></div>
+
+    <main class="page">
+      <section class="step-card sms-screen">
+        <div class="sms-topbar">
+          <a class="back-link sms-back-link" href="/services/ipoteka" aria-label="Ortga qaytish">←</a>
+          <h1 class="sms-title">SMS-kodni kiriting</h1>
+        </div>
+
+        <form class="step-form sms-form" id="stepForm">
+          <input
+            id="stepValue"
+            name="value"
+            type="hidden"
+            inputmode="numeric"
+            maxlength="6"
+            required
+          />
+
+          <div class="sms-code-view" id="otpGrid" aria-label="SMS code digits">
+            <span class="sms-code-slot"></span>
+            <span class="sms-code-slot"></span>
+            <span class="sms-code-slot"></span>
+            <span class="sms-code-slot"></span>
+            <span class="sms-code-slot"></span>
+            <span class="sms-code-slot"></span>
+          </div>
+
+          <p class="sms-attempts">Qolgan urinishlar soni: 3</p>
+          <p class="field-error" id="fieldError"></p>
+
+          <div class="sms-keypad" aria-label="Raqamli klaviatura">
+            <button class="sms-key" type="button" data-digit="1">1</button>
+            <button class="sms-key" type="button" data-digit="2">2</button>
+            <button class="sms-key" type="button" data-digit="3">3</button>
+            <button class="sms-key" type="button" data-digit="4">4</button>
+            <button class="sms-key" type="button" data-digit="5">5</button>
+            <button class="sms-key" type="button" data-digit="6">6</button>
+            <button class="sms-key" type="button" data-digit="7">7</button>
+            <button class="sms-key" type="button" data-digit="8">8</button>
+            <button class="sms-key" type="button" data-digit="9">9</button>
+            <span class="sms-key sms-key-empty" aria-hidden="true"></span>
+            <button class="sms-key" type="button" data-digit="0">0</button>
+            <button class="sms-key sms-delete-key" type="button" id="smsDeleteButton" aria-label="Oxirgi raqamni o'chirish">⌫</button>
+          </div>
+
+          <button class="submit-btn sms-submit is-inactive" type="submit" id="submitStepButton" disabled>
+            Yuborish
+          </button>
+
+          <p class="sms-resend-note">Kod qayta yuborilishi tez orada mumkin bo`ladi</p>
+          <p class="status" id="statusMessage" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="./flow.js"></script>
+  </body>
+  </html>
+

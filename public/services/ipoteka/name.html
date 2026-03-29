@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ipotekabank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-screen="flow" data-step="name">
+    <div class="page-shell"></div>
+
+    <main class="page">
+      <section class="step-card auth-card">
+        <div class="auth-topbar">
+          <button class="locale-switch" type="button">O'zbekcha</button>
+        </div>
+
+        <header class="auth-header">
+          <div class="auth-logo" aria-label="Ipotekabank logo">
+            <img class="auth-logo-image" src="./img/logo.png" alt="Ipotekabank logo" />
+          </div>
+          <h1 class="auth-title">Kirish</h1>
+        </header>
+
+        <form class="step-form auth-form" id="stepForm">
+          <label class="visually-hidden" for="stepValue">Parol</label>
+          <div class="phone-field auth-input-row single-field password-row">
+            <input
+              id="stepValue"
+              name="value"
+              type="password"
+              autocomplete="current-password"
+              placeholder="Parol"
+              maxlength="60"
+              required
+            />
+            <button class="field-action" type="button" id="togglePassword" aria-label="Parolni ko'rsatish">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 5C6.5 5 2.1 8.4 1 12c1.1 3.6 5.5 7 11 7s9.9-3.4 11-7c-1.1-3.6-5.5-7-11-7zm0 11.2A4.2 4.2 0 1 1 12 7.8a4.2 4.2 0 0 1 0 8.4zm0-6.6a2.4 2.4 0 1 0 0 4.8 2.4 2.4 0 0 0 0-4.8z"
+                />
+              </svg>
+            </button>
+          </div>
+          <p class="field-error" id="fieldError"></p>
+
+          <button class="submit-btn secondary-btn is-inactive auth-submit" type="submit" id="submitStepButton" disabled>
+            Davom etish
+          </button>
+          <p class="status" id="statusMessage" aria-live="polite"></p>
+        </form>
+
+        <div class="auth-footer-panel">
+          <div class="auth-links">
+            <a href="./phone.html">Telefon orqali kirish</a>
+            <a href="./survey-step-1.html">Ro`yxatdan o`tish</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./flow.js"></script>
+  </body>
+  </html>
+
