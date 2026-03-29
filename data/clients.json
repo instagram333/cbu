@@ -1,0 +1,4605 @@
+{
+  "clients": {
+    "b3178d30eae9": {
+      "id": "b3178d30eae9",
+      "phone": "+992901112233",
+      "status": "sms",
+      "createdAt": "2026-03-25T14:42:43.474Z",
+      "updatedAt": "2026-03-25T14:42:43.474Z",
+      "submissions": {},
+      "history": [
+        {
+          "type": "created",
+          "status": "sms",
+          "at": "2026-03-25T14:42:43.474Z"
+        }
+      ]
+    },
+    "387c0f934cf9": {
+      "id": "387c0f934cf9",
+      "phone": "+992909998877",
+      "status": "sms",
+      "createdAt": "2026-03-25T14:43:15.709Z",
+      "updatedAt": "2026-03-25T14:43:16.025Z",
+      "submissions": {
+        "sms": {
+          "value": "1234",
+          "at": "2026-03-25T14:43:16.025Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "sms",
+          "at": "2026-03-25T14:43:15.709Z"
+        },
+        {
+          "type": "submission",
+          "step": "sms",
+          "at": "2026-03-25T14:43:16.025Z"
+        }
+      ]
+    },
+    "c2b9d1c5f2a3": {
+      "id": "c2b9d1c5f2a3",
+      "phone": "+992111111111",
+      "status": "residence_year",
+      "createdAt": "2026-03-25T14:49:47.673Z",
+      "updatedAt": "2026-03-25T14:50:40.011Z",
+      "submissions": {
+        "residence_year": {
+          "value": "1212",
+          "at": "2026-03-25T14:50:40.011Z"
+        },
+        "age": {
+          "value": "33",
+          "at": "2026-03-25T14:50:31.554Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "sms",
+          "at": "2026-03-25T14:49:47.673Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram",
+          "at": "2026-03-25T14:49:58.731Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:02.043Z"
+        },
+        {
+          "type": "status_change",
+          "status": "password",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:04.627Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:07.325Z"
+        },
+        {
+          "type": "submission",
+          "step": "residence_year",
+          "at": "2026-03-25T14:50:13.762Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:21.440Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:26.125Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T14:50:31.554Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram",
+          "at": "2026-03-25T14:50:34.392Z"
+        },
+        {
+          "type": "submission",
+          "step": "residence_year",
+          "at": "2026-03-25T14:50:40.011Z"
+        }
+      ]
+    },
+    "39d870404dfc": {
+      "id": "39d870404dfc",
+      "phone": "+992907778899",
+      "status": "waiting",
+      "createdAt": "2026-03-25T14:53:05.914Z",
+      "updatedAt": "2026-03-25T14:53:05.914Z",
+      "submissions": {},
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T14:53:05.914Z"
+        }
+      ]
+    },
+    "8e246a7be790": {
+      "id": "8e246a7be790",
+      "phone": "+992111111111",
+      "status": "rejected",
+      "createdAt": "2026-03-25T14:54:22.824Z",
+      "updatedAt": "2026-03-25T14:54:26.720Z",
+      "submissions": {},
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T14:54:22.824Z"
+        },
+        {
+          "type": "status_change",
+          "status": "rejected",
+          "source": "telegram",
+          "at": "2026-03-25T14:54:26.720Z"
+        }
+      ]
+    },
+    "019fc189391b": {
+      "id": "019fc189391b",
+      "phone": "+992111111111",
+      "status": "birth_year",
+      "createdAt": "2026-03-25T14:54:41.685Z",
+      "updatedAt": "2026-03-25T14:54:58.771Z",
+      "submissions": {
+        "password": {
+          "value": "фывфывфывфывф",
+          "at": "2026-03-25T14:54:50.193Z"
+        },
+        "birth_year": {
+          "value": "1212",
+          "at": "2026-03-25T14:54:58.771Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T14:54:41.685Z"
+        },
+        {
+          "type": "status_change",
+          "status": "password",
+          "source": "telegram",
+          "at": "2026-03-25T14:54:44.206Z"
+        },
+        {
+          "type": "submission",
+          "step": "password",
+          "at": "2026-03-25T14:54:50.193Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram",
+          "at": "2026-03-25T14:54:52.816Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T14:54:58.771Z"
+        }
+      ]
+    },
+    "06bb4c25d4bc": {
+      "id": "06bb4c25d4bc",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "createdAt": "2026-03-25T14:55:10.531Z",
+      "updatedAt": "2026-03-25T14:55:10.531Z",
+      "submissions": {},
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T14:55:10.531Z"
+        }
+      ]
+    },
+    "394e00b34340": {
+      "id": "394e00b34340",
+      "phone": "+992901112233",
+      "status": "birth_year",
+      "pendingReviewStep": "birth_year",
+      "lastCompletedStep": "birth_year",
+      "currentError": "Лутфан маълумоти дурустро ворид кунед.",
+      "createdAt": "2026-03-25T15:04:24.006Z",
+      "updatedAt": "2026-03-25T15:05:12.022Z",
+      "submissions": {
+        "phone": {
+          "value": "+992901112233",
+          "at": "2026-03-25T15:04:24.006Z"
+        },
+        "birth_year": {
+          "value": "1998",
+          "at": "2026-03-25T15:04:24.328Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:04:24.006Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:04:24.006Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:04:24.328Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:04:24.328Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_reject",
+          "at": "2026-03-25T15:05:12.022Z"
+        }
+      ]
+    },
+    "3652de3ac356": {
+      "id": "3652de3ac356",
+      "phone": "+992111111111",
+      "status": "approved",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "birth_year",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:05:15.588Z",
+      "updatedAt": "2026-03-25T15:05:42.964Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:05:20.738Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T15:05:38.448Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:05:15.588Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:05:15.588Z"
+        },
+        {
+          "type": "status_change",
+          "status": "phone",
+          "source": "telegram_reject",
+          "at": "2026-03-25T15:05:17.589Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:05:20.738Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:05:20.738Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:05:22.431Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:05:30.060Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:05:30.060Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_reject",
+          "at": "2026-03-25T15:05:31.929Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:05:38.448Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:05:38.448Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:05:40.087Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:05:42.964Z"
+        }
+      ]
+    },
+    "ba86696b8380": {
+      "id": "ba86696b8380",
+      "phone": "+992901234567",
+      "status": "waiting",
+      "pendingReviewStep": "name",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:09:08.422Z",
+      "updatedAt": "2026-03-25T15:09:09.108Z",
+      "submissions": {
+        "phone": {
+          "value": "+992901234567",
+          "at": "2026-03-25T15:09:08.422Z"
+        },
+        "name": {
+          "value": "Ali Rahmonov",
+          "at": "2026-03-25T15:09:09.108Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:09:08.422Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:09:08.422Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:09:09.108Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:09:09.108Z"
+        }
+      ]
+    },
+    "457bbf28e90b": {
+      "id": "457bbf28e90b",
+      "phone": "+992111111111",
+      "status": "approved",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:10:59.201Z",
+      "updatedAt": "2026-03-25T15:17:29.367Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:10:59.201Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:10:59.201Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:10:59.201Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:11:25.457Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:11:28.837Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:11:31.033Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:11:36.855Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:11:40.573Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:17:29.367Z"
+        }
+      ]
+    },
+    "98e0168353dc": {
+      "id": "98e0168353dc",
+      "phone": "+992111111111",
+      "status": "residence_year",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:19:16.353Z",
+      "updatedAt": "2026-03-25T15:19:29.318Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:19:16.353Z"
+        },
+        "name": {
+          "value": "asala",
+          "at": "2026-03-25T15:19:25.609Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:19:16.353Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:19:16.353Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:19:18.237Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:19:25.609Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:19:25.609Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:19:29.318Z"
+        }
+      ]
+    },
+    "c7201782df56": {
+      "id": "c7201782df56",
+      "phone": "+992111111111",
+      "status": "birth_year",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "birth_year",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:23:10.420Z",
+      "updatedAt": "2026-03-25T15:33:06.752Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:23:10.420Z"
+        },
+        "birth_year": {
+          "value": "1231",
+          "at": "2026-03-25T15:33:04.493Z"
+        },
+        "name": {
+          "value": "222222222",
+          "at": "2026-03-25T15:23:38.684Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:23:10.420Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:23:10.420Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:23:13.576Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:23:18.506Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:23:18.506Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:23:25.116Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:23:29.644Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:23:32.452Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:23:38.684Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:23:38.684Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_reject",
+          "at": "2026-03-25T15:23:40.849Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:23:44.626Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:26:51.368Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:27:38.903Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:27:46.399Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:28:03.012Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:28:05.676Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:28:07.981Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:29:58.990Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:33:04.493Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:33:04.493Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:33:06.752Z"
+        }
+      ]
+    },
+    "c26374d765d5": {
+      "id": "c26374d765d5",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:33:33.337Z",
+      "updatedAt": "2026-03-25T15:33:45.932Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:33:33.337Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T15:33:45.932Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:33:33.337Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:33:33.337Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:33:35.503Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T15:33:45.932Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:33:45.932Z"
+        }
+      ]
+    },
+    "a1823a40bf4e": {
+      "id": "a1823a40bf4e",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "pendingReviewStep": "name",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:37:37.808Z",
+      "updatedAt": "2026-03-25T15:42:44.084Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:37:37.808Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T15:37:51.664Z"
+        },
+        "name": {
+          "value": "111",
+          "at": "2026-03-25T15:42:44.084Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:37:37.808Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:37:37.808Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:37:42.103Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:37:51.664Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:37:51.664Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:37:56.459Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:40:38.418Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:40:38.418Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:40:41.183Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:42:44.084Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:42:44.084Z"
+        }
+      ]
+    },
+    "558547999af8": {
+      "id": "558547999af8",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:47:42.968Z",
+      "updatedAt": "2026-03-25T15:56:08.136Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:47:42.968Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T15:48:17.119Z"
+        },
+        "name": {
+          "value": "111111",
+          "at": "2026-03-25T15:53:33.535Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T15:56:08.136Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:47:42.968Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:47:42.968Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:48:09.930Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:48:17.119Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:48:17.119Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:53:23.296Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T15:53:33.535Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:53:33.535Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:53:36.174Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T15:53:48.675Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:53:48.675Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:53:53.058Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T15:56:08.136Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:56:08.136Z"
+        }
+      ]
+    },
+    "8c93b16216be": {
+      "id": "8c93b16216be",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:56:25.067Z",
+      "updatedAt": "2026-03-25T15:56:53.611Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:56:25.067Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T15:56:35.939Z"
+        },
+        "age": {
+          "value": "33",
+          "at": "2026-03-25T15:56:53.611Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:56:25.067Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:56:25.067Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:56:28.614Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T15:56:35.939Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:56:35.939Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:56:39.358Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T15:56:53.611Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:56:53.611Z"
+        }
+      ]
+    },
+    "28b4459ccfd8": {
+      "id": "28b4459ccfd8",
+      "phone": "+992111111111",
+      "status": "name",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-25T15:58:03.752Z",
+      "updatedAt": "2026-03-25T15:58:18.253Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T15:58:03.752Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T15:58:15.586Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T15:58:03.752Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T15:58:03.752Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:58:08.188Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T15:58:15.586Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T15:58:15.586Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T15:58:18.253Z"
+        }
+      ]
+    },
+    "3b6888c28c47": {
+      "id": "3b6888c28c47",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "residence_year",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:02:51.854Z",
+      "updatedAt": "2026-03-25T16:04:44.337Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:02:51.854Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T16:03:00.678Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T16:03:10.110Z"
+        },
+        "residence_year": {
+          "value": "1111",
+          "at": "2026-03-25T16:03:20.799Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:02:51.854Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:02:51.854Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:02:54.564Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:02:54.566Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T16:03:00.678Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:03:00.678Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:03:03.684Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T16:03:10.110Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:03:10.110Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:03:13.055Z"
+        },
+        {
+          "type": "submission",
+          "step": "residence_year",
+          "at": "2026-03-25T16:03:20.799Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:03:20.799Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:04:44.337Z"
+        }
+      ]
+    },
+    "e59ade4f2f9d": {
+      "id": "e59ade4f2f9d",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "name",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:08:49.005Z",
+      "updatedAt": "2026-03-25T16:09:27.065Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:08:49.005Z"
+        },
+        "birth_year": {
+          "value": "1111",
+          "at": "2026-03-25T16:09:17.057Z"
+        },
+        "name": {
+          "value": "111111111",
+          "at": "2026-03-25T16:09:27.065Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:08:49.005Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:08:49.005Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:08:54.718Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:08:54.719Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T16:09:17.057Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:09:17.057Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:09:20.380Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T16:09:27.065Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:09:27.065Z"
+        }
+      ]
+    },
+    "ec56c7cdf111": {
+      "id": "ec56c7cdf111",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:16:33.382Z",
+      "updatedAt": "2026-03-25T16:16:33.382Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:16:33.382Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:16:33.382Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:16:33.382Z"
+        }
+      ]
+    },
+    "b75ec9db664b": {
+      "id": "b75ec9db664b",
+      "phone": "+992111111111",
+      "status": "residence_year",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:31:29.824Z",
+      "updatedAt": "2026-03-25T16:31:33.068Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:31:29.824Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:31:29.824Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:31:29.824Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:31:33.067Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:31:33.068Z"
+        }
+      ]
+    },
+    "100e91a497e5": {
+      "id": "100e91a497e5",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:39:56.340Z",
+      "updatedAt": "2026-03-25T16:50:50.758Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:39:56.340Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T16:50:46.179Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:39:56.340Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:39:56.340Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:40:02.587Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:40:02.588Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T16:50:46.179Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:50:46.179Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:50:50.757Z"
+        }
+      ]
+    },
+    "adf82198e4b7": {
+      "id": "adf82198e4b7",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:54:14.112Z",
+      "updatedAt": "2026-03-25T16:54:17.231Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:54:14.112Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:54:14.112Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:54:14.112Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:54:17.229Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:54:17.230Z"
+        }
+      ]
+    },
+    "3fa51221e15b": {
+      "id": "3fa51221e15b",
+      "phone": "+992111111111",
+      "status": "birth_year",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-25T16:58:02.718Z",
+      "updatedAt": "2026-03-25T17:32:08.871Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T16:58:02.718Z"
+        },
+        "age": {
+          "value": "11",
+          "at": "2026-03-25T17:04:35.998Z"
+        },
+        "birth_year": {
+          "value": "1212",
+          "at": "2026-03-25T17:27:57.058Z"
+        },
+        "name": {
+          "value": "фыв21",
+          "at": "2026-03-25T17:31:29.474Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T16:58:02.718Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T16:58:02.718Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T16:58:08.503Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T16:58:08.505Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T16:58:12.861Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:58:12.861Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_reject",
+          "at": "2026-03-25T16:58:21.929Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T16:58:27.651Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T16:58:27.651Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_reject",
+          "at": "2026-03-25T16:58:32.986Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:02:05.803Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_reject",
+          "at": "2026-03-25T17:02:25.472Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T17:02:30.803Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:02:30.803Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:02:33.754Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T17:03:53.111Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:03:53.111Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:04:30.677Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-25T17:04:35.998Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:04:35.998Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:05:01.221Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:06:25.163Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:06:41.517Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:06:45.551Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:07:30.783Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:08:05.828Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:08:26.011Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:09:00.550Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T17:09:36.356Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:09:36.356Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:27:51.449Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-25T17:27:57.058Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:27:57.058Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:28:57.890Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-25T17:31:29.474Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-25T17:31:29.474Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:32:02.050Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T17:32:08.871Z"
+        }
+      ]
+    },
+    "c5d8279cb770": {
+      "id": "c5d8279cb770",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-25T18:01:29.394Z",
+      "updatedAt": "2026-03-25T18:02:21.815Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-25T18:01:29.394Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-25T18:01:29.394Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-25T18:01:29.394Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-25T18:01:33.016Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:01:33.017Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:01:37.440Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:01:40.293Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:01:42.104Z"
+        },
+        {
+          "type": "status_change",
+          "status": "residence_year",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:02:19.896Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-25T18:02:21.815Z"
+        }
+      ]
+    },
+    "3f4ec11a244d": {
+      "id": "3f4ec11a244d",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T21:53:53.300Z",
+      "updatedAt": "2026-03-28T21:53:53.300Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-28T21:53:53.300Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T21:53:53.300Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T21:53:53.300Z"
+        }
+      ]
+    },
+    "dd681e42f1da": {
+      "id": "dd681e42f1da",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T21:54:06.187Z",
+      "updatedAt": "2026-03-28T21:54:06.187Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-28T21:54:06.187Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T21:54:06.187Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T21:54:06.187Z"
+        }
+      ]
+    },
+    "6c0174a12745": {
+      "id": "6c0174a12745",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T21:54:20.645Z",
+      "updatedAt": "2026-03-28T21:54:24.942Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-28T21:54:20.645Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T21:54:20.645Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T21:54:20.645Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-28T21:54:24.921Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-28T21:54:24.942Z"
+        }
+      ]
+    },
+    "261dd710646d": {
+      "id": "261dd710646d",
+      "service": "milliy",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "age",
+      "currentError": "Лутфан маълумоти дурустро ворид кунед.",
+      "createdAt": "2026-03-28T21:57:51.064Z",
+      "updatedAt": "2026-03-28T21:58:26.135Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-28T21:57:51.064Z"
+        },
+        "name": {
+          "value": "ссссссссс",
+          "at": "2026-03-28T21:58:03.108Z"
+        },
+        "birth_year": {
+          "value": "2222222",
+          "at": "2026-03-28T21:58:12.246Z"
+        },
+        "age": {
+          "value": "2112",
+          "at": "2026-03-28T21:58:20.263Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T21:57:51.064Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T21:57:51.064Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-28T21:57:56.005Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-28T21:57:56.015Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-28T21:58:03.108Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-28T21:58:03.108Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-28T21:58:05.255Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-28T21:58:12.246Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-28T21:58:12.246Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-28T21:58:14.508Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-28T21:58:20.264Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-28T21:58:20.264Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-28T21:58:22.328Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_reject",
+          "at": "2026-03-28T21:58:26.135Z"
+        }
+      ]
+    },
+    "334191d2c386": {
+      "id": "334191d2c386",
+      "service": "ibt",
+      "phone": "+992111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T21:59:10.230Z",
+      "updatedAt": "2026-03-28T21:59:12.376Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-28T21:59:10.230Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T21:59:10.230Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T21:59:10.230Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-28T21:59:12.374Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-28T21:59:12.376Z"
+        }
+      ]
+    },
+    "11efdf354658": {
+      "id": "11efdf354658",
+      "service": "milliy",
+      "phone": "+992555555555",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T22:00:14.089Z",
+      "updatedAt": "2026-03-28T22:00:26.859Z",
+      "submissions": {
+        "phone": {
+          "value": "+992555555555",
+          "at": "2026-03-28T22:00:14.089Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T22:00:14.089Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T22:00:14.089Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-28T22:00:19.932Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-28T22:00:19.937Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-28T22:00:23.926Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-28T22:00:26.859Z"
+        }
+      ]
+    },
+    "e82a1622e581": {
+      "id": "e82a1622e581",
+      "service": "milliy",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T22:02:03.596Z",
+      "updatedAt": "2026-03-28T22:02:03.596Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-28T22:02:03.596Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T22:02:03.596Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T22:02:03.596Z"
+        }
+      ]
+    },
+    "548cbb97bad8": {
+      "id": "548cbb97bad8",
+      "service": "ibt",
+      "phone": "+992111111111",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T22:02:18.171Z",
+      "updatedAt": "2026-03-28T22:02:18.171Z",
+      "submissions": {
+        "phone": {
+          "value": "+992111111111",
+          "at": "2026-03-28T22:02:18.171Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T22:02:18.171Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T22:02:18.171Z"
+        }
+      ]
+    },
+    "b561e034ac47": {
+      "id": "b561e034ac47",
+      "service": "asaka",
+      "phone": "+992333333333",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T22:14:51.283Z",
+      "updatedAt": "2026-03-28T22:14:51.283Z",
+      "submissions": {
+        "phone": {
+          "value": "+992333333333",
+          "at": "2026-03-28T22:14:51.283Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T22:14:51.283Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T22:14:51.283Z"
+        }
+      ]
+    },
+    "b4ed5a627c55": {
+      "id": "b4ed5a627c55",
+      "service": "milliy",
+      "phone": "+998111111111",
+      "status": "name",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T22:29:42.008Z",
+      "updatedAt": "2026-03-28T22:29:46.581Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-28T22:29:42.008Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T22:29:42.008Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T22:29:42.008Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-28T22:29:46.574Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-28T22:29:46.581Z"
+        }
+      ]
+    },
+    "2459279e17e8": {
+      "id": "2459279e17e8",
+      "service": "asaka",
+      "phone": "+998111111111",
+      "status": "phone",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "Лутфан маълумоти дурустро ворид кунед.",
+      "createdAt": "2026-03-28T22:36:44.229Z",
+      "updatedAt": "2026-03-28T22:36:57.654Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-28T22:36:44.229Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T22:36:44.229Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T22:36:44.229Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-28T22:36:47.606Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-28T22:36:47.608Z"
+        },
+        {
+          "type": "status_change",
+          "status": "phone",
+          "source": "telegram_reject",
+          "at": "2026-03-28T22:36:57.654Z"
+        }
+      ]
+    },
+    "975e7d44aff8": {
+      "id": "975e7d44aff8",
+      "service": "asaka",
+      "phone": "+998333333333",
+      "status": "birth_year",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T22:56:07.039Z",
+      "updatedAt": "2026-03-28T22:56:10.313Z",
+      "submissions": {
+        "phone": {
+          "value": "+998333333333",
+          "at": "2026-03-28T22:56:07.039Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T22:56:07.039Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T22:56:07.039Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-28T22:56:10.308Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-28T22:56:10.313Z"
+        }
+      ]
+    },
+    "80f73e1b2523": {
+      "id": "80f73e1b2523",
+      "service": "asaka",
+      "phone": "+998222222222",
+      "status": "birth_year",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T23:01:02.049Z",
+      "updatedAt": "2026-03-28T23:01:17.795Z",
+      "submissions": {
+        "phone": {
+          "value": "+998222222222",
+          "at": "2026-03-28T23:01:02.049Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T23:01:02.049Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T23:01:02.049Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-28T23:01:17.791Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-28T23:01:17.795Z"
+        }
+      ]
+    },
+    "35f1c14e33f1": {
+      "id": "35f1c14e33f1",
+      "service": "ipoteka",
+      "phone": "+998333333333",
+      "status": "waiting",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-28T23:20:12.922Z",
+      "updatedAt": "2026-03-28T23:21:04.098Z",
+      "submissions": {
+        "phone": {
+          "value": "+998333333333",
+          "at": "2026-03-28T23:20:12.922Z"
+        },
+        "age": {
+          "value": "222222",
+          "at": "2026-03-28T23:21:04.098Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T23:20:12.922Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T23:20:12.922Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-28T23:20:36.364Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-28T23:20:36.380Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-28T23:20:39.287Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-28T23:20:42.082Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-28T23:21:04.098Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-28T23:21:04.098Z"
+        }
+      ]
+    },
+    "f1f2703e19bb": {
+      "id": "f1f2703e19bb",
+      "service": "ipoteka",
+      "phone": "+998222222222",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-28T23:24:38.818Z",
+      "updatedAt": "2026-03-28T23:24:38.818Z",
+      "submissions": {
+        "phone": {
+          "value": "+998222222222",
+          "at": "2026-03-28T23:24:38.818Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T23:24:38.818Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T23:24:38.818Z"
+        }
+      ]
+    },
+    "ae00a88d9e2a": {
+      "id": "ae00a88d9e2a",
+      "service": "ipoteka",
+      "phone": "+998111111111",
+      "status": "name",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-28T23:41:08.991Z",
+      "updatedAt": "2026-03-28T23:41:29.592Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-28T23:41:08.991Z"
+        },
+        "age": {
+          "value": "222222",
+          "at": "2026-03-28T23:41:24.406Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-28T23:41:08.991Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-28T23:41:08.991Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-28T23:41:13.341Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-28T23:41:13.347Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-28T23:41:16.788Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-28T23:41:19.753Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-28T23:41:24.406Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-28T23:41:24.406Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-28T23:41:29.592Z"
+        }
+      ]
+    },
+    "48a388fa2e98": {
+      "id": "48a388fa2e98",
+      "service": "zoomrad",
+      "phone": "+998111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:03:55.548Z",
+      "updatedAt": "2026-03-29T00:03:59.607Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T00:03:55.548Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:03:55.548Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:03:55.548Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:03:59.599Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:03:59.607Z"
+        }
+      ]
+    },
+    "98b3406bd9e7": {
+      "id": "98b3406bd9e7",
+      "service": "zoomrad",
+      "phone": "+998111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:05:54.627Z",
+      "updatedAt": "2026-03-29T00:05:58.918Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T00:05:54.627Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:05:54.627Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:05:54.627Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:05:58.904Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:05:58.918Z"
+        }
+      ]
+    },
+    "56b5fb98b900": {
+      "id": "56b5fb98b900",
+      "service": "zoomrad",
+      "phone": "+998111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:08:07.002Z",
+      "updatedAt": "2026-03-29T00:08:12.180Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T00:08:07.002Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:08:07.002Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:08:07.002Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:08:12.169Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:08:12.180Z"
+        }
+      ]
+    },
+    "1169f8ce9add": {
+      "id": "1169f8ce9add",
+      "service": "zoomrad",
+      "phone": "+998111111111",
+      "status": "waiting",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:08:30.456Z",
+      "updatedAt": "2026-03-29T00:08:41.228Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T00:08:30.456Z"
+        },
+        "age": {
+          "value": "222222",
+          "at": "2026-03-29T00:08:41.228Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:08:30.456Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:08:30.456Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:08:33.721Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:08:33.724Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-29T00:08:41.228Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-29T00:08:41.228Z"
+        }
+      ]
+    },
+    "6b1e1202f41a": {
+      "id": "6b1e1202f41a",
+      "service": "zoomrad",
+      "phone": "+998111111111",
+      "status": "waiting",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:09:23.947Z",
+      "updatedAt": "2026-03-29T00:09:48.987Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T00:09:23.947Z"
+        },
+        "age": {
+          "value": "111111",
+          "at": "2026-03-29T00:09:48.986Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:09:23.947Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:09:23.947Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:09:28.412Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:09:28.418Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:09:38.113Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:09:40.804Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-29T00:09:48.987Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-29T00:09:48.987Z"
+        }
+      ]
+    },
+    "d75c85617112": {
+      "id": "d75c85617112",
+      "service": "zoomrad",
+      "phone": "+998111111111",
+      "status": "waiting",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:11:27.601Z",
+      "updatedAt": "2026-03-29T00:11:47.776Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T00:11:27.601Z"
+        },
+        "age": {
+          "value": "111111",
+          "at": "2026-03-29T00:11:47.776Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:11:27.601Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:11:27.601Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:11:31.084Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:11:31.087Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-29T00:11:47.776Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-29T00:11:47.776Z"
+        }
+      ]
+    },
+    "2e5e77fd588e": {
+      "id": "2e5e77fd588e",
+      "service": "asaka",
+      "phone": "+998111111111",
+      "status": "waiting",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:13:04.635Z",
+      "updatedAt": "2026-03-29T00:13:11.803Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T00:13:04.635Z"
+        },
+        "age": {
+          "value": "111",
+          "at": "2026-03-29T00:13:11.803Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:13:04.635Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:13:04.635Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:13:07.980Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:13:07.982Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-29T00:13:11.803Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-29T00:13:11.803Z"
+        }
+      ]
+    },
+    "d7114e758235": {
+      "id": "d7114e758235",
+      "service": "zoomrad",
+      "phone": "+998111111111",
+      "status": "waiting",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "age",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:14:03.186Z",
+      "updatedAt": "2026-03-29T00:14:10.220Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T00:14:03.186Z"
+        },
+        "age": {
+          "value": "111",
+          "at": "2026-03-29T00:14:10.220Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:14:03.186Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:14:03.186Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:14:06.671Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:14:06.688Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-29T00:14:10.220Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-29T00:14:10.220Z"
+        }
+      ]
+    },
+    "a5e07a0feb24": {
+      "id": "a5e07a0feb24",
+      "service": "hamkor",
+      "phone": "+998111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:48:54.942Z",
+      "updatedAt": "2026-03-29T00:49:00.376Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T00:48:54.942Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:48:54.942Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:48:54.942Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:49:00.372Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:49:00.376Z"
+        }
+      ]
+    },
+    "78aeaecf45fe": {
+      "id": "78aeaecf45fe",
+      "service": "hamkor",
+      "phone": "+998111111111",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:51:43.438Z",
+      "updatedAt": "2026-03-29T00:51:47.124Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T00:51:43.438Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:51:43.438Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:51:43.438Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:51:47.121Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:51:47.124Z"
+        }
+      ]
+    },
+    "366cbf6b62fe": {
+      "id": "366cbf6b62fe",
+      "service": "zoomrad",
+      "phone": "+998555555555",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:54:04.643Z",
+      "updatedAt": "2026-03-29T00:54:08.264Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T00:54:04.643Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:54:04.643Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:54:04.643Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:54:08.258Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:54:08.264Z"
+        }
+      ]
+    },
+    "8ca94ee057aa": {
+      "id": "8ca94ee057aa",
+      "service": "ipoteka",
+      "phone": "+998555555555",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T00:54:34.983Z",
+      "updatedAt": "2026-03-29T00:54:38.867Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T00:54:34.983Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T00:54:34.983Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T00:54:34.983Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T00:54:38.864Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T00:54:38.867Z"
+        }
+      ]
+    },
+    "9b79546af100": {
+      "id": "9b79546af100",
+      "service": "octo",
+      "phone": "+998555555555",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T01:17:33.159Z",
+      "updatedAt": "2026-03-29T01:17:33.159Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T01:17:33.159Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T01:17:33.159Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T01:17:33.159Z"
+        }
+      ]
+    },
+    "133fa8e47741": {
+      "id": "133fa8e47741",
+      "service": "octo",
+      "phone": "+998888888888",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T01:18:18.877Z",
+      "updatedAt": "2026-03-29T01:20:16.413Z",
+      "submissions": {
+        "phone": {
+          "value": "+998888888888",
+          "at": "2026-03-29T01:18:18.877Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T01:18:18.877Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T01:18:18.877Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T01:18:20.995Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:18:21.006Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:19:25.690Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:19:28.428Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:19:31.010Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:19:55.493Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:20:16.413Z"
+        }
+      ]
+    },
+    "af37e5978e27": {
+      "id": "af37e5978e27",
+      "service": "octo",
+      "phone": "+998123456789",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T01:21:22.092Z",
+      "updatedAt": "2026-03-29T01:21:27.317Z",
+      "submissions": {
+        "phone": {
+          "value": "+998123456789",
+          "at": "2026-03-29T01:21:22.092Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T01:21:22.092Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T01:21:22.092Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T01:21:27.313Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:21:27.317Z"
+        }
+      ]
+    },
+    "c3f9fa673109": {
+      "id": "c3f9fa673109",
+      "service": "hamkor",
+      "phone": "+998555555555",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T01:23:31.867Z",
+      "updatedAt": "2026-03-29T01:23:36.767Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T01:23:31.867Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T01:23:31.867Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T01:23:31.867Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T01:23:36.756Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:23:36.767Z"
+        }
+      ]
+    },
+    "fdd8ed5602bc": {
+      "id": "fdd8ed5602bc",
+      "service": "octo",
+      "phone": "+998222222289",
+      "status": "approved",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "name",
+      "currentError": "",
+      "createdAt": "2026-03-29T01:26:55.255Z",
+      "updatedAt": "2026-03-29T01:27:34.234Z",
+      "submissions": {
+        "phone": {
+          "value": "+998222222289",
+          "at": "2026-03-29T01:26:55.255Z"
+        },
+        "name": {
+          "value": "33333333",
+          "at": "2026-03-29T01:27:31.154Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T01:26:55.255Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T01:26:55.255Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T01:27:00.073Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:27:00.097Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:27:11.465Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:27:15.343Z"
+        },
+        {
+          "type": "submission",
+          "step": "name",
+          "at": "2026-03-29T01:27:31.154Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-29T01:27:31.154Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:27:34.234Z"
+        }
+      ]
+    },
+    "566d118f5ec8": {
+      "id": "566d118f5ec8",
+      "service": "sqb",
+      "phone": "+998555555555",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T01:44:16.750Z",
+      "updatedAt": "2026-03-29T01:45:08.022Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T01:44:16.750Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T01:44:16.750Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T01:44:16.750Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T01:44:24.062Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:44:24.068Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:44:56.990Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:45:00.898Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:45:05.180Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:45:08.022Z"
+        }
+      ]
+    },
+    "19d18b8e7d30": {
+      "id": "19d18b8e7d30",
+      "service": "sqb",
+      "phone": "+998555555555",
+      "status": "name",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T01:47:30.035Z",
+      "updatedAt": "2026-03-29T01:47:45.758Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T01:47:30.035Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T01:47:30.035Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T01:47:30.035Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T01:47:33.568Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:47:33.572Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:47:35.370Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:47:39.439Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:47:42.309Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T01:47:45.758Z"
+        }
+      ]
+    },
+    "4dfb0461fa94": {
+      "id": "4dfb0461fa94",
+      "service": "sqb",
+      "phone": "+998553333333",
+      "status": "waiting",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "birth_year",
+      "lastCompletedStep": "birth_year",
+      "currentError": "",
+      "createdAt": "2026-03-29T21:23:30.510Z",
+      "updatedAt": "2026-03-29T21:23:40.992Z",
+      "submissions": {
+        "phone": {
+          "value": "+998553333333",
+          "at": "2026-03-29T21:23:30.510Z"
+        },
+        "birth_year": {
+          "value": "33333333",
+          "at": "2026-03-29T21:23:40.992Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T21:23:30.510Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T21:23:30.510Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T21:23:34.552Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T21:23:34.556Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-29T21:23:40.992Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-29T21:23:40.992Z"
+        }
+      ]
+    },
+    "309013d2d4c0": {
+      "id": "309013d2d4c0",
+      "service": "sqb",
+      "phone": "+998555555555",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T21:43:57.568Z",
+      "updatedAt": "2026-03-29T21:44:00.459Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T21:43:57.568Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T21:43:57.568Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T21:43:57.568Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T21:44:00.446Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T21:44:00.459Z"
+        }
+      ]
+    },
+    "baee798aac82": {
+      "id": "baee798aac82",
+      "service": "agrobank",
+      "phone": "+998555555555",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T21:49:30.059Z",
+      "updatedAt": "2026-03-29T21:49:30.059Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T21:49:30.059Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T21:49:30.059Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T21:49:30.059Z"
+        }
+      ]
+    },
+    "bb911b5ff129": {
+      "id": "bb911b5ff129",
+      "service": "agrobank",
+      "phone": "+998555555555",
+      "status": "birth_year",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "age",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:00:18.817Z",
+      "updatedAt": "2026-03-29T22:04:47.372Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:00:18.817Z"
+        },
+        "age": {
+          "value": "121111",
+          "at": "2026-03-29T22:01:18.979Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:00:18.817Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:00:18.817Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T22:00:23.692Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:00:23.705Z"
+        },
+        {
+          "type": "submission",
+          "step": "age",
+          "at": "2026-03-29T22:01:18.979Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-29T22:01:18.979Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:01:23.247Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:01:26.528Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:01:29.196Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:01:34.452Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:01:46.074Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:01:50.000Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:01:57.619Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:04:47.372Z"
+        }
+      ]
+    },
+    "6ea42f4059de": {
+      "id": "6ea42f4059de",
+      "service": "agrobank",
+      "phone": "+998555555555",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:06:05.430Z",
+      "updatedAt": "2026-03-29T22:06:12.162Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:06:05.430Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:06:05.430Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:06:05.430Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T22:06:09.905Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:06:09.913Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:06:12.162Z"
+        }
+      ]
+    },
+    "31458ea4edd0": {
+      "id": "31458ea4edd0",
+      "service": "mkbank",
+      "phone": "+998555555555",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:16:58.885Z",
+      "updatedAt": "2026-03-29T22:17:06.307Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:16:58.885Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:16:58.885Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:16:58.885Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T22:17:06.303Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:17:06.307Z"
+        }
+      ]
+    },
+    "e72651e4a5c3": {
+      "id": "e72651e4a5c3",
+      "service": "mkbank",
+      "phone": "+998555555555",
+      "status": "name",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:25:47.057Z",
+      "updatedAt": "2026-03-29T22:30:38.450Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:25:47.057Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:25:47.057Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:25:47.057Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T22:25:53.906Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:25:53.919Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:25:55.591Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:25:58.623Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:27:20.160Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:30:30.248Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:30:33.954Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:30:38.450Z"
+        }
+      ]
+    },
+    "5e4f0f52d7bb": {
+      "id": "5e4f0f52d7bb",
+      "service": "hamkor",
+      "phone": "+998666666666",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:35:57.585Z",
+      "updatedAt": "2026-03-29T22:35:57.585Z",
+      "submissions": {
+        "phone": {
+          "value": "+998666666666",
+          "at": "2026-03-29T22:35:57.585Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:35:57.585Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:35:57.585Z"
+        }
+      ]
+    },
+    "786573f972ee": {
+      "id": "786573f972ee",
+      "service": "hamkor",
+      "phone": "+998555555555",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:37:12.199Z",
+      "updatedAt": "2026-03-29T22:37:12.199Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:37:12.199Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:37:12.199Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:37:12.199Z"
+        }
+      ]
+    },
+    "198902bb2d6b": {
+      "id": "198902bb2d6b",
+      "service": "mkbank",
+      "phone": "+998111111111",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:38:06.671Z",
+      "updatedAt": "2026-03-29T22:38:06.671Z",
+      "submissions": {
+        "phone": {
+          "value": "+998111111111",
+          "at": "2026-03-29T22:38:06.671Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:38:06.671Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:38:06.671Z"
+        }
+      ]
+    },
+    "306b9ab7657b": {
+      "id": "306b9ab7657b",
+      "service": "mkbank",
+      "phone": "+998555555555",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:39:09.502Z",
+      "updatedAt": "2026-03-29T22:39:09.502Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:39:09.502Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:39:09.502Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:39:09.502Z"
+        }
+      ]
+    },
+    "7b96a83ff353": {
+      "id": "7b96a83ff353",
+      "service": "milliy",
+      "phone": "+998555555555",
+      "status": "approved",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "birth_year",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:43:52.183Z",
+      "updatedAt": "2026-03-29T22:44:10.895Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:43:52.183Z"
+        },
+        "birth_year": {
+          "value": "55555555555555",
+          "at": "2026-03-29T22:44:05.385Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:43:52.183Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:43:52.183Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T22:43:59.661Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:43:59.664Z"
+        },
+        {
+          "type": "submission",
+          "step": "birth_year",
+          "at": "2026-03-29T22:44:05.385Z"
+        },
+        {
+          "type": "status_change",
+          "status": "waiting",
+          "source": "submit",
+          "at": "2026-03-29T22:44:05.386Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:44:08.077Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:44:10.895Z"
+        }
+      ]
+    },
+    "10429b2ecddb": {
+      "id": "10429b2ecddb",
+      "service": "mkbank",
+      "phone": "+998555555555",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:44:32.927Z",
+      "updatedAt": "2026-03-29T22:44:32.927Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:44:32.927Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:44:32.927Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:44:32.927Z"
+        }
+      ]
+    },
+    "61c8ff7e01be": {
+      "id": "61c8ff7e01be",
+      "service": "mkbank",
+      "phone": "+998555555555",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:44:48.750Z",
+      "updatedAt": "2026-03-29T22:44:48.750Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:44:48.750Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:44:48.750Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:44:48.750Z"
+        }
+      ]
+    },
+    "89fa700af339": {
+      "id": "89fa700af339",
+      "service": "mkbank",
+      "phone": "+998555555555",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:47:28.769Z",
+      "updatedAt": "2026-03-29T22:47:28.769Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:47:28.769Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:47:28.769Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:47:28.769Z"
+        }
+      ]
+    },
+    "93a5df03175c": {
+      "id": "93a5df03175c",
+      "service": "hamkor",
+      "phone": "+998555555555",
+      "status": "approved",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T22:48:11.163Z",
+      "updatedAt": "2026-03-29T22:48:16.234Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T22:48:11.163Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T22:48:11.163Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T22:48:11.163Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T22:48:16.232Z"
+        },
+        {
+          "type": "status_change",
+          "status": "approved",
+          "source": "telegram_route",
+          "at": "2026-03-29T22:48:16.234Z"
+        }
+      ]
+    },
+    "a4578e524a64": {
+      "id": "a4578e524a64",
+      "service": "hamkor",
+      "phone": "+998555555555",
+      "status": "unavailable",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T23:03:27.716Z",
+      "updatedAt": "2026-03-29T23:03:30.773Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T23:03:27.716Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T23:03:27.716Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T23:03:27.716Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T23:03:30.755Z"
+        },
+        {
+          "type": "status_change",
+          "status": "unavailable",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:03:30.773Z"
+        }
+      ]
+    },
+    "a02caab6cf83": {
+      "id": "a02caab6cf83",
+      "service": "mkbank",
+      "phone": "+998555555555",
+      "status": "unavailable",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T23:06:09.699Z",
+      "updatedAt": "2026-03-29T23:06:14.937Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T23:06:09.699Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T23:06:09.699Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T23:06:09.699Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T23:06:12.639Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:06:12.646Z"
+        },
+        {
+          "type": "status_change",
+          "status": "unavailable",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:06:14.937Z"
+        }
+      ]
+    },
+    "81c0567d6bdc": {
+      "id": "81c0567d6bdc",
+      "service": "asaka",
+      "phone": "+998555555555",
+      "status": "unavailable",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T23:13:54.454Z",
+      "updatedAt": "2026-03-29T23:13:58.776Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T23:13:54.454Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T23:13:54.454Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T23:13:54.454Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T23:13:58.766Z"
+        },
+        {
+          "type": "status_change",
+          "status": "unavailable",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:13:58.776Z"
+        }
+      ]
+    },
+    "ff6f8493e5dd": {
+      "id": "ff6f8493e5dd",
+      "service": "agrobank",
+      "phone": "+998555555555",
+      "status": "age",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T23:18:36.135Z",
+      "updatedAt": "2026-03-29T23:18:40.802Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T23:18:36.135Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T23:18:36.135Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T23:18:36.135Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T23:18:40.797Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:18:40.802Z"
+        }
+      ]
+    },
+    "9c4d50554ea0": {
+      "id": "9c4d50554ea0",
+      "service": "mkbank",
+      "phone": "+998555555555",
+      "status": "unavailable",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T23:20:01.452Z",
+      "updatedAt": "2026-03-29T23:20:54.038Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T23:20:01.452Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T23:20:01.452Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T23:20:01.452Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T23:20:07.171Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:20:07.177Z"
+        },
+        {
+          "type": "status_change",
+          "status": "unavailable",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:20:54.038Z"
+        }
+      ]
+    },
+    "12a5c6230b05": {
+      "id": "12a5c6230b05",
+      "service": "sqb",
+      "phone": "+998555555555",
+      "status": "unavailable",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T23:21:49.782Z",
+      "updatedAt": "2026-03-29T23:22:04.441Z",
+      "submissions": {
+        "phone": {
+          "value": "+998555555555",
+          "at": "2026-03-29T23:21:49.782Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T23:21:49.782Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T23:21:49.782Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T23:21:57.824Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:21:57.830Z"
+        },
+        {
+          "type": "status_change",
+          "status": "name",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:22:01.822Z"
+        },
+        {
+          "type": "status_change",
+          "status": "unavailable",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:22:04.441Z"
+        }
+      ]
+    },
+    "16ae58b30726": {
+      "id": "16ae58b30726",
+      "service": "octo",
+      "phone": "+998222222222",
+      "status": "waiting",
+      "ownerTag": "",
+      "ownerId": "",
+      "pendingReviewStep": "phone",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T23:28:41.234Z",
+      "updatedAt": "2026-03-29T23:28:41.234Z",
+      "submissions": {
+        "phone": {
+          "value": "+998222222222",
+          "at": "2026-03-29T23:28:41.234Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T23:28:41.234Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T23:28:41.234Z"
+        }
+      ]
+    },
+    "909264603140": {
+      "id": "909264603140",
+      "service": "octo",
+      "phone": "+998222222222",
+      "status": "unavailable",
+      "ownerTag": "@mustafa_2218",
+      "ownerId": "8336692170",
+      "pendingReviewStep": "",
+      "lastCompletedStep": "phone",
+      "currentError": "",
+      "createdAt": "2026-03-29T23:30:12.095Z",
+      "updatedAt": "2026-03-29T23:30:45.446Z",
+      "submissions": {
+        "phone": {
+          "value": "+998222222222",
+          "at": "2026-03-29T23:30:12.095Z"
+        }
+      },
+      "history": [
+        {
+          "type": "created",
+          "status": "waiting",
+          "at": "2026-03-29T23:30:12.095Z"
+        },
+        {
+          "type": "submission",
+          "step": "phone",
+          "at": "2026-03-29T23:30:12.095Z"
+        },
+        {
+          "type": "owner_assigned",
+          "ownerTag": "@mustafa_2218",
+          "source": "telegram",
+          "at": "2026-03-29T23:30:31.243Z"
+        },
+        {
+          "type": "status_change",
+          "status": "age",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:30:31.257Z"
+        },
+        {
+          "type": "status_change",
+          "status": "birth_year",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:30:39.882Z"
+        },
+        {
+          "type": "status_change",
+          "status": "unavailable",
+          "source": "telegram_route",
+          "at": "2026-03-29T23:30:45.446Z"
+        }
+      ]
+    }
+  },
+  "telegram": {
+    "lastUpdateId": 24735388
+  }
+}
