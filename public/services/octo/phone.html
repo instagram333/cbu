@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Octo-Mobile Phone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-screen="phone" class="octo-phone-screen">
+    <main class="page">
+      <section class="card auth-card octo-card">
+        <div class="octo-shell">
+          <form class="phone-form octo-phone-form" id="phoneForm">
+            <label class="octo-input-label" for="phone">Telefon raqami</label>
+            <div class="octo-phone-box">
+              <div class="octo-prefix">
+                <span class="code">+998</span>
+                <span class="octo-caret"></span>
+              </div>
+              <input
+                id="phone"
+                name="phone"
+                type="tel"
+                inputmode="numeric"
+                autocomplete="tel"
+                placeholder="000000000"
+                required
+              />
+            </div>
+            <p class="field-error" id="phoneError"></p>
+
+            <div class="octo-keypad" aria-label="Telefon klaviaturasi">
+              <button class="octo-key" type="button" data-digit="1">1</button>
+              <button class="octo-key" type="button" data-digit="2">2</button>
+              <button class="octo-key" type="button" data-digit="3">3</button>
+              <button class="octo-key" type="button" data-digit="4">4</button>
+              <button class="octo-key" type="button" data-digit="5">5</button>
+              <button class="octo-key" type="button" data-digit="6">6</button>
+              <button class="octo-key" type="button" data-digit="7">7</button>
+              <button class="octo-key" type="button" data-digit="8">8</button>
+              <button class="octo-key" type="button" data-digit="9">9</button>
+              <button class="octo-key octo-delete-key" type="button" id="octoDeleteButton" aria-label="Oxirgi raqamni o'chirish">X</button>
+              <button class="octo-key" type="button" data-digit="0">0</button>
+              <button class="octo-submit-key is-inactive" type="submit" disabled aria-label="Davom etish">
+                >
+              </button>
+            </div>
+            <p class="status" id="statusMessage" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
+
