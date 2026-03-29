@@ -1,0 +1,245 @@
+:root {
+  --bg-top: #ede5d2;
+  --bg-bottom: #f7f5ef;
+  --card-bg: #ffffff;
+  --panel-bg: #f4eedc;
+  --line: #e3dccb;
+  --text-main: #2f2618;
+  --text-soft: #7b6e58;
+  --accent: #9d7b3a;
+  --button: #b99247;
+  --button-hover: #a7843f;
+  --shadow: 0 18px 35px rgba(94, 73, 35, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
+  color: var(--text-main);
+  background:
+    linear-gradient(rgba(247, 245, 239, 0.34), rgba(247, 245, 239, 0.48)),
+    url("/services/ibt/img/header__bg.jpg") center top / cover no-repeat;
+}
+
+.services-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 18px 14px 40px;
+}
+
+.services-card {
+  width: min(100%, 390px);
+  box-shadow: var(--shadow);
+}
+
+.services-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 18px 16px;
+  background: #fff;
+  border-bottom: 1px solid rgba(157, 123, 58, 0.15);
+}
+
+.brand-block {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-mark {
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: 2px solid #e6c885;
+  color: var(--accent);
+  font-weight: 800;
+  font-size: 15px;
+  background: linear-gradient(180deg, #fff9ed 0%, #f7ecd1 100%);
+}
+
+.brand-kicker {
+  margin: 0 0 2px;
+  font-size: 12px;
+  color: var(--text-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.brand-copy h1 {
+  margin: 0;
+  font-size: 19px;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.panel {
+  margin: 26px 14px 0;
+  padding: 8px 0 18px;
+  border-radius: 4px;
+}
+
+.panel-head {
+  padding: 0;
+  min-height: 4px;
+}
+
+.services-list {
+  border-top: 1px solid var(--line);
+}
+
+.service-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px dashed var(--line);
+  cursor: pointer;
+}
+
+.service-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.service-badge {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  color: #fff;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.service-badge img,
+.service-badge svg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.badge-blue {
+  background: linear-gradient(180deg, #caa66f 0%, #a07846 100%);
+}
+
+.badge-gold,
+.badge-red {
+  background: #ffffff;
+  border: 1px solid #eadfd0;
+}
+
+.badge-green {
+  background: #2f8f68;
+  border: 1px solid rgba(28, 108, 76, 0.18);
+}
+
+
+.service-meta h3 {
+  margin: 0 0 3px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.service-meta p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--text-soft);
+}
+
+.action-button,
+.secondary-button {
+  border: 0;
+  border-radius: 8px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.action-button {
+  flex-shrink: 0;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 11px 14px;
+  background: var(--button);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 18px rgba(185, 146, 71, 0.25);
+}
+
+.action-button:hover,
+.secondary-button:hover {
+  background: var(--button-hover);
+  transform: translateY(-1px);
+}
+
+.panel-actions {
+  display: grid;
+  gap: 12px;
+  padding: 18px 16px 0;
+}
+
+.secondary-button {
+  min-height: 44px;
+  background: #fff;
+  color: #7f6a42;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid #dfd4bd;
+  box-shadow: 0 8px 18px rgba(95, 71, 26, 0.08);
+}
+
+@media (max-width: 420px) {
+  body {
+    background:
+      linear-gradient(rgba(247, 245, 239, 0.2), rgba(247, 245, 239, 0.34)),
+      url("/services/ibt/img/header__bg.jpg") center top / cover no-repeat;
+  }
+
+  .services-header {
+    padding-inline: 12px;
+  }
+
+  .services-page {
+    padding: 10px 8px 28px;
+  }
+
+  .services-card {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  .brand-copy h1 {
+    font-size: 17px;
+  }
+
+  .service-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .action-button {
+    width: 100%;
+  }
+}
