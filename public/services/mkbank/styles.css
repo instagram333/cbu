@@ -1,0 +1,625 @@
+:root {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-soft: #f5f7fb;
+  --surface-muted: #f7f8fb;
+  --text: #17365d;
+  --muted: #8c97a5;
+  --line: #dcdfe5;
+  --primary: #8fb2d7;
+  --primary-strong: #7ba0ca;
+  --primary-soft: rgba(123, 160, 202, 0.16);
+  --error: #d94b4b;
+  --success: #18884e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Manrope", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.page {
+  width: min(100%, 30rem);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: max(1rem, env(safe-area-inset-top)) 1.4rem calc(1.5rem + env(safe-area-inset-bottom));
+}
+
+.card,
+.step-card,
+.survey-start-card,
+.survey-finish-card,
+.survey-card,
+.waiting-card,
+.rejected-card {
+  min-height: calc(100vh - max(1rem, env(safe-area-inset-top)) - 1.5rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.visually-hidden,
+.auth-topbar,
+.locale-switch,
+.auth-links,
+.auth-footer-panel,
+.page-shell {
+  display: none;
+}
+
+.topbar {
+  display: grid;
+  grid-template-columns: 2.6rem 1fr 2.6rem;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: 2.8rem;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  justify-self: center;
+  gap: 0.65rem;
+}
+
+.brand-logo {
+  width: 2.15rem;
+  height: 2.15rem;
+  object-fit: contain;
+  display: block;
+}
+
+.brand-name {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.icon-button,
+.back-link {
+  width: 2.6rem;
+  height: 2.6rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.75rem;
+  line-height: 1;
+  padding: 0;
+}
+
+.icon-button svg {
+  width: 1.7rem;
+  height: 1.7rem;
+  fill: currentColor;
+}
+
+.help-button {
+  justify-self: end;
+  width: 2.15rem;
+  height: 2.15rem;
+  background: #17365d;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.hero-block,
+.auth-header,
+.hero-copy,
+.step-copy {
+  text-align: center;
+}
+
+.hero-block,
+.auth-header {
+  padding-top: 2.8rem;
+}
+
+.auth-header {
+  display: grid;
+  justify-items: center;
+  gap: 0.9rem;
+}
+
+.auth-logo,
+.logo-wrap {
+  width: 7.4rem;
+  height: 7.4rem;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.auth-logo-image,
+.logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.auth-title,
+.mkbank-title,
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 7vw, 2.6rem);
+  line-height: 1.12;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+
+.eyebrow {
+  margin: 0 0 0.55rem;
+  color: #1eab57;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.subtitle,
+.auth-intro,
+.helper-text,
+.timer-text,
+.status,
+.loading-text {
+  color: var(--muted);
+}
+
+.subtitle,
+.auth-intro {
+  margin: 0.7rem 0 0;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  font-weight: 700;
+}
+
+.auth-header .subtitle,
+.hero-copy .subtitle {
+  max-width: 24rem;
+  margin-inline: auto;
+}
+
+.otp-lead {
+  margin: 0.8rem 0 0;
+  text-align: center;
+  font-size: 0.98rem;
+  line-height: 1.4;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.otp-lead strong {
+  display: block;
+  margin-top: 0.15rem;
+}
+
+.auth-form,
+.step-form,
+.survey-form,
+.loading-box {
+  margin-top: 2rem;
+}
+
+.phone-form,
+.step-form {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.mkbank-form {
+  margin-top: 2.3rem;
+}
+
+.mkbank-label,
+.field-label {
+  display: block;
+  margin: 0 0 0.7rem;
+  color: #24374d;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.mkbank-phone-field,
+.phone-field,
+.single-field,
+.password-row,
+.survey-number-field {
+  min-height: 4.75rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 0 1rem;
+    height: 95px;
+  background: var(--surface);
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04);
+}
+
+.password-row {
+  gap: 0.6rem;
+}
+
+.survey-number-field {
+  display: grid;
+  gap: 0.6rem;
+  padding: 1rem;
+  min-height: 0;
+  align-items: start;
+}
+
+.survey-number-field span {
+  font-weight: 700;
+}
+
+.mkbank-phone-field input,
+.phone-field input,
+.single-field input,
+.password-row input,
+.survey-number-input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: #17365d;
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: 800;
+  min-width: 0;
+}
+
+.survey-number-input {
+  min-height: 1.8rem;
+  padding: 0;
+}
+
+.mkbank-phone-field input::placeholder,
+.phone-field input::placeholder,
+.single-field input::placeholder,
+.password-row input::placeholder,
+.survey-number-input::placeholder {
+  color: #bcc5d1;
+}
+
+.mkbank-phone-field:focus-within,
+.phone-field:focus-within,
+.single-field:focus-within,
+.password-row:focus-within,
+.survey-number-field:focus-within {
+  border-color: #75de99;
+  box-shadow: 0 0 0 3px var(--primary-soft);
+}
+
+.field-action {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: inline-grid;
+  place-items: center;
+  border: 0;
+  border-radius: 999px;
+  background: #f1f4f7;
+  color: #73808c;
+  flex-shrink: 0;
+}
+
+.field-action svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: currentColor;
+}
+
+.field-error,
+.status.is-error {
+  color: var(--error);
+}
+
+.status.is-success {
+  color: var(--success);
+}
+
+.field-error {
+  min-height: 1.1rem;
+  margin: 0.45rem 0 0;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.helper-text {
+  margin: 0.35rem 0 0;
+  text-align: center;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  font-weight: 700;
+}
+
+.consent-text {
+  margin: auto 0 1.4rem;
+  text-align: center;
+  font-size: 1.02rem;
+  line-height: 1.45;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.consent-text a,
+.inline-link {
+  color: var(--primary-strong);
+  text-decoration: underline;
+}
+
+.submit-btn {
+  width: 100%;
+  min-height: 4.95rem;
+  border: 0;
+  border-radius: 999px;
+  background: #a9c1de;
+  color: #ffffff;
+  font: inherit;
+  font-size: 1.15rem;
+  font-weight: 800;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+.mkbank-submit,
+.step-form .submit-btn {
+  margin-top: auto;
+}
+
+.submit-btn.is-ready,
+.survey-start-card .submit-btn,
+.survey-finish-card .submit-btn {
+  background: linear-gradient(180deg, var(--primary) 0%, var(--primary-strong) 100%);
+}
+
+.submit-btn.is-inactive,
+.submit-btn:disabled {
+  cursor: not-allowed;
+}
+
+.status {
+  min-height: 1.4rem;
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.survey-progress {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.45rem;
+  width: min(100%, 16rem);
+  margin: 1.4rem auto 0;
+}
+
+.survey-progress span {
+  height: 0.32rem;
+  border-radius: 999px;
+  background: #e6ebf0;
+}
+
+.survey-progress .survey-progress-active {
+  background: linear-gradient(90deg, #87a9d0 0%, #6c95c4 100%);
+}
+
+.survey-form {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1.8rem;
+}
+
+.survey-option,
+.loading-box {
+  border-radius: 1rem;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  padding: 1rem;
+}
+
+.survey-option {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  min-height: 4.3rem;
+  color: var(--text);
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+.survey-option:hover {
+  border-color: #a8c1de;
+  background: #fbfcff;
+}
+
+.survey-option input {
+  accent-color: var(--primary-strong);
+  width: 1.05rem;
+  height: 1.05rem;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.survey-option span {
+  flex: 1;
+  line-height: 1.35;
+  font-weight: 700;
+  text-align: left;
+}
+
+.otp-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin-top: 1.7rem;
+}
+
+.otp-input {
+  min-height: 4.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.7rem;
+  background: #eef0f3;
+  color: var(--text);
+  text-align: center;
+  font: inherit;
+  font-size: 1.45rem;
+  font-weight: 800;
+  outline: none;
+}
+
+.otp-input:focus {
+  background: #ffffff;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px var(--primary-soft);
+}
+
+body[data-screen="phone"] .topbar {
+  grid-template-columns: 2.6rem 1fr 2.6rem;
+}
+
+body[data-screen="phone"] .brand {
+  display: none;
+}
+
+body[data-screen="phone"] .help-button {
+  display: none;
+}
+
+body[data-screen="phone"] .auth-header {
+  padding-top: 3.8rem;
+}
+
+body[data-screen="phone"] .auth-logo {
+  width: 9rem;
+  height: 4.6rem;
+}
+
+body[data-screen="phone"] .mkbank-form {
+  margin-top: 2.8rem;
+}
+
+body[data-screen="phone"] .consent-text {
+  font-weight: 500;
+  max-width: 28rem;
+  margin-bottom: 1.8rem;
+}
+
+body[data-screen="phone"] .submit-btn {
+  margin-top: 0;
+}
+
+body[data-screen="flow"] .step-card {
+  justify-content: flex-start;
+}
+
+body[data-screen="flow"] .back-link {
+  align-self: flex-start;
+}
+
+body[data-screen="flow"] .logo-wrap {
+  width: 6.2rem;
+  height: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+body[data-screen="flow"] .step-copy {
+  margin-top: 2.4rem;
+}
+
+body[data-screen="flow"] .step-copy h1 {
+  font-size: 1.95rem;
+}
+
+body[data-screen="flow"] .step-form {
+  margin-top: 1.8rem;
+}
+
+body[data-screen="flow"] .step-form .submit-btn {
+  margin-top: auto;
+}
+
+.timer-text,
+.change-number {
+  text-align: center;
+}
+
+.timer-text {
+  margin: 1rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.change-number {
+  margin: auto 0 0.9rem;
+  font-size: 0.98rem;
+  line-height: 1.45;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.change-number .inline-link {
+  font-weight: 800;
+}
+
+.loading-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.loading-ring {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 0.32rem solid rgba(11, 216, 91, 0.14);
+  border-top-color: var(--primary);
+  animation: spin 0.9s linear infinite;
+}
+
+.center-link {
+  margin-top: 1.2rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 420px) {
+  .page {
+    padding-inline: 1rem;
+  }
+
+  .hero-block,
+  .auth-header {
+    padding-top: 2.2rem;
+  }
+
+  .auth-title,
+  .mkbank-title,
+  h1 {
+    font-size: 1.85rem;
+  }
+}
