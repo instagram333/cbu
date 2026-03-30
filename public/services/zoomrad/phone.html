@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoomrad Phone Verification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-screen="phone">
+    <main class="page">
+      <section class="card auth-card">
+        <div class="auth-topbar">
+          <button class="locale-switch" type="button">O'zbekcha</button>
+        </div>
+
+        <header class="auth-header">
+          <!-- <div class="auth-logo" aria-label="Zoomrad logo">
+            <img class="auth-logo-image" src="./img/logo.jpg" alt="Zoomrad logo" />
+          </div> -->
+          <h1 class="auth-title">Telefon raqami</h1>
+          </header>
+
+        <form class="phone-form auth-form" id="phoneForm">
+          <label class="visually-hidden" for="phone">Telefon raqami</label>
+          <div class="phone-field">
+            <input
+              id="phone"
+              name="phone"
+              type="tel"
+              inputmode="numeric"
+              autocomplete="tel"
+              placeholder="+998 00 000 00 00"
+              required
+            />
+          </div>
+          <p class="field-error" id="phoneError"></p>
+
+          <button class="submit-btn is-inactive" type="submit" disabled>Davom ettirish</button>
+          <p class="status" id="statusMessage" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+
