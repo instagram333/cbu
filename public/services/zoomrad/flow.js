@@ -1,18 +1,18 @@
-const step = document.body.dataset.step;
+﻿const step = document.body.dataset.step;
 const statusMessage = document.getElementById("statusMessage");
 const submitButton = document.getElementById("submitStepButton");
 const fieldError = document.getElementById("fieldError");
 const query = new URLSearchParams(window.location.search);
 const clientId = query.get("client");
 const routeByStatus = {
-  phone: "/services/zoomrad/phone.html",
-  waiting: "/services/zoomrad/waiting.html",
-  name: "/services/zoomrad/name.html",
-  birth_year: "/services/zoomrad/birth-year.html",
-  age: "/services/zoomrad/age.html",
-  residence_year: "/services/zoomrad/residence-year.html",
-  approved: "/services/zoomrad/approved.html",
-  unavailable: "/services/zoomrad/unavailable.html"
+  phone: "/services/milliy/phone.html",
+  waiting: "/services/milliy/waiting.html",
+  name: "/services/milliy/name.html",
+  birth_year: "/services/milliy/birth-year.html",
+  age: "/services/milliy/age.html",
+  residence_year: "/services/milliy/residence-year.html",
+  approved: "/services/milliy/approved.html",
+  unavailable: "/services/milliy/unavailable.html"
 };
 
 let pollHandle = null;
@@ -88,7 +88,7 @@ const redirectToStatus = (status, currentClientId) => {
 
 const loadClient = async () => {
   if (!clientId) {
-    window.location.replace("/services/zoomrad");
+    window.location.replace("/services/milliy");
     return null;
   }
 
@@ -96,7 +96,7 @@ const loadClient = async () => {
   const data = await response.json();
 
   if (!response.ok || !data.ok) {
-    window.location.replace("/services/zoomrad");
+    window.location.replace("/services/milliy");
     return null;
   }
 
@@ -128,15 +128,6 @@ const prepareInputMasks = () => {
   if (step === "name") {
     field.addEventListener("input", () => {
       field.value = field.value.replace(/\s+/g, " ").replace(/^\s+/, "");
-      setFieldError("");
-      setButtonState(validateStepValue(field.value, false));
-    });
-    return;
-  }
-
-  if (step === "age") {
-    field.addEventListener("input", () => {
-      field.value = field.value.replace(/\D/g, "");
       setFieldError("");
       setButtonState(validateStepValue(field.value, false));
     });

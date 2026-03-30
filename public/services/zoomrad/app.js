@@ -1,18 +1,14 @@
-const form = document.getElementById("phoneForm");
+﻿const form = document.getElementById("phoneForm");
 const phoneInput = document.getElementById("phone");
 const statusMessage = document.getElementById("statusMessage");
 const phoneError = document.getElementById("phoneError");
 const submitButton = form.querySelector("button[type='submit']");
 const query = new URLSearchParams(window.location.search);
 const clientId = query.get("client");
-const service = "zoomrad";
-const COUNTRY_PREFIX = "+998 ";
-
-const getLocalDigits = (value) =>
-  value.replace(/\D/g, "").replace(/^998/, "").slice(0, 9);
+const service = "milliy";
 
 const formatDigits = (value) => {
-  const digits = getLocalDigits(value);
+  const digits = value.replace(/\D/g, "").slice(0, 9);
   const parts = [];
 
   if (digits.length > 0) parts.push(digits.slice(0, 2));
@@ -20,7 +16,7 @@ const formatDigits = (value) => {
   if (digits.length > 5) parts.push(digits.slice(5, 7));
   if (digits.length > 7) parts.push(digits.slice(7, 9));
 
-  return `${COUNTRY_PREFIX}${parts.join(" ")}`.trimEnd();
+  return parts.join(" ");
 };
 
 const setStatus = (message, type = "") => {
@@ -43,7 +39,7 @@ const setButtonState = (isReady, label = "Davom etish") => {
 };
 
 const validatePhone = () => {
-  const localNumber = getLocalDigits(phoneInput.value);
+  const localNumber = phoneInput.value.replace(/\D/g, "");
 
   if (!localNumber.length) {
     setFieldError("");
@@ -82,10 +78,8 @@ const loadClient = async () => {
   }
 
   if (data.client.phone) {
-    const localPhone = getLocalDigits(data.client.phone);
+    const localPhone = data.client.phone.replace("+998", "");
     phoneInput.value = formatDigits(localPhone);
-  } else {
-    phoneInput.value = COUNTRY_PREFIX;
   }
 
   setButtonState(validatePhone());
@@ -99,16 +93,10 @@ phoneInput.addEventListener("input", (event) => {
   setButtonState(isValid);
 });
 
-phoneInput.addEventListener("focus", () => {
-  if (!phoneInput.value.trim()) {
-    phoneInput.value = COUNTRY_PREFIX;
-  }
-});
-
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
 
-  const localNumber = getLocalDigits(phoneInput.value);
+  const localNumber = phoneInput.value.replace(/\D/g, "");
   if (!validatePhone()) {
     setStatus("Iltimos, to`g`ri telefon raqamini kiriting.", "error");
     setButtonState(false);

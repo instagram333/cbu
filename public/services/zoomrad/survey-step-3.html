@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Milliy 24</title>
+    <title>Survey Step 3</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,42 +12,38 @@
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body data-screen="flow" data-step="age">
+  <body data-survey-step="3">
     <div class="page-shell"></div>
 
     <main class="page">
-      <section class="step-card">
-        <a class="back-link" href="/services/milliy">←</a>
+      <section class="step-card survey-card">
+        <div class="survey-progress">
+          <span class="survey-progress-active"></span>
+          <span class="survey-progress-active"></span>
+          <span class="survey-progress-active"></span>
+        </div>
 
         <div class="logo-wrap step-logo" aria-label="Milliy logo">
           <img class="logo-image" src="./img/logo.svg" alt="Milliy logo" />
         </div>
 
         <header class="hero-copy step-copy">
-          <h1>SMS kodni kiriting</h1>
-          </header>
+          <h1>Milliy ilovasiga 1 dan 10 gacha qanday baho berasiz, bunda 10 — a`lo, 1 — yomon?</h1>
+          <p class="subtitle">Javobingiz bizga mos taklif tayyorlashga yordam beradi.</p>
+        </header>
 
-        <form class="step-form" id="stepForm">
-          <div class="phone-field single-field">
-            <input
-              id="stepValue"
-              name="value"
-              type="text"
-              inputmode="numeric"
-              required
-            />
-          </div>
-          <p class="field-error" id="fieldError"></p>
+        <form class="step-form survey-form" data-next="./survey-complete.html">
+      
+          <label for="quantity" ></label>
+<input class="survey-option" type="number" id="quantity" name="quantity" min="1" max="10">
 
-          <button class="submit-btn secondary-btn is-inactive" type="submit" id="submitStepButton" disabled>
-            Yuborish
-          </button>
+
+          <button class="submit-btn secondary-btn" type="submit">Yakunlash</button>
           <p class="status" id="statusMessage" aria-live="polite"></p>
         </form>
       </section>
     </main>
 
-    <script src="./flow.js"></script>
+    <script src="./survey.js"></script>
   </body>
   </html>
-
